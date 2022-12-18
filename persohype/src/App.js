@@ -1,13 +1,11 @@
 import './App.css';
-import OffcanvasExample from './components/navbar';
-import Home from './components/home';
+import { Link, Route, Routes } from "react-router-dom";
+import PrivateRoute from 'react-private-route';
+
 function App() {
   return (
     <div className="App">
-    <div className='linkk'>  <OffcanvasExample/>  </div> 
-    <div className='home'>
-    <Home/>
-    </div>
+    
     </div>
   );
 }
